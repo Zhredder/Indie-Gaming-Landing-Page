@@ -5,10 +5,8 @@
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
-    
-    
-    
-    
+    height: 100px;
+ 
 }
 
 .nav {
@@ -19,9 +17,61 @@
    
 }
 
+.Introduction {
+
+    display: flex;
+    background: #1F2937;
+    height: 450px;
+    align-items: center;
+    
+    
+}
+
+#intro_image {
+    border-radius: 5%;
+    margin-left: 250px;
+}
+
+.Introduction_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    justify-content: space-between;
+    
+}
+
+#intro_title {
+    font-size: 48px;
+    color: #F9FAF8;
+    
+       
+
+}
+
+#intro_subheading {
+    
+    font-size: 18px;
+    color: #E5E7EB;
+    
+    
+}
+
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
+
+#exploreButton {
+    background-color: #3882F6;
+    width: 150px;
+    height: 35px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
