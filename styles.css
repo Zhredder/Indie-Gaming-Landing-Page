@@ -43,6 +43,7 @@
 #intro_title {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: bolder;
     
        
 
@@ -75,3 +76,40 @@ ul {
     margin-top: 15px;
 }
 
+#features_title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    gap: 30px;
+    font-size: 18px;
+    color: #1f1d1d;
+    font-weight: 550;
+        
+}
+
+.gallery {
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: rgb(165, 64, 185);
+}
