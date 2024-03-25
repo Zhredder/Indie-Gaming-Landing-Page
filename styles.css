@@ -90,7 +90,7 @@ ul {
     justify-content: center;
     gap: 130px;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
     
 }
@@ -112,4 +112,26 @@ ul {
     border-radius: 20px;
     padding: 10px;
     border-color: rgb(165, 64, 185);
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 750px;
+}
+
+#skull {
+    margin-left: 300px;
 }
