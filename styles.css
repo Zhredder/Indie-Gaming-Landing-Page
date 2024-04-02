@@ -174,12 +174,25 @@ ul {
     border-radius: 8px;
     border-width: 2.5px;
     border-style: solid;
-  
-    
-    
     box-shadow: none;
     
     
 }
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#outro {
+    font-weight: lighter;
+}
+
 
 
