@@ -133,5 +133,53 @@ ul {
 }
 
 #skull {
-    margin-left: 300px;
+    margin-left: 250px;
 }
+
+.signup {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background {
+    background-color: #3882F6;
+    width: 1300px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+
+#background_title {
+    color: #F9FAF8
+
+}
+
+#background_info {
+    color: #E5E7EB;
+}
+
+#s_button {
+    background-color: #3882F6;
+    border-color: #ffffff;
+    width: 150px;
+    height: 35px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 8px;
+    border-width: 2.5px;
+    border-style: solid;
+  
+    
+    
+    box-shadow: none;
+    
+    
+}
+
+
